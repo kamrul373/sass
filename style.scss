@@ -8,3 +8,25 @@ header h2{
 	font-size: 30px;
 	font-weight: bold;
 }
+nav{
+	background-color:blueviolet;
+	ul{
+		display: flex;
+		li{
+			list-style-type: none;
+			padding:10px;
+			transition: background-color 0.5s linear;
+			a{
+				text-decoration: none;
+				display: inline-block;
+				color:white;
+				margin:0 10px;
+			}
+			
+		}
+		li:hover {
+			background-color: crimson;
+			
+		}
+	}
+}
