@@ -1,15 +1,18 @@
+$base : crimson;
+$menu-bg:blueviolet;
+$menu-text:white;
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 header h2{
-	color:crimson;
+	color:$base;
 	font-size: 30px;
 	font-weight: bold;
 }
 nav{
-	background-color:blueviolet;
+	background-color: $menu-bg;
 	ul{
 		display: flex;
 		li{
@@ -19,13 +22,13 @@ nav{
 			a{
 				text-decoration: none;
 				display: inline-block;
-				color:white;
+				color:$menu-text;
 				margin:0 10px;
 			}
 			
 		}
 		li:hover {
-			background-color: crimson;
+			background-color: $base;
 			
 		}
 	}
