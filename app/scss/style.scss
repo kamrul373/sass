@@ -1,0 +1,10 @@
+@use "../utils/index";
+@forward "../base/base";
+header h2{
+	color: index.$title-color;
+}
+p{
+	background-color: index.$bg-color;
+	color:index.$primary-color;
+	padding:index.$padding
+}
